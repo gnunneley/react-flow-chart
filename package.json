@@ -1,10 +1,10 @@
 {
-  "name": "@mrblenny/react-flow-chart",
-  "version": "0.0.13",
-  "description": "A flexible, stateless flow chart library for react.",
+  "name": "@gnunn/react-flow-chart",
+  "version": "0.0.1",
+  "description": "A flexible, stateless flow chart library for react. Forked from mrblenny/react-flow-chart",
   "main": "src/index.js",
-  "repository": "git@github.com:MrBlenny/react-flow-chart.git",
-  "author": "David Revay <daverevay@gmail.com>",
+  "repository": "git@github.com:gnunneley/react-flow-chart.git",
+  "author": "Grant Nunneley <gnunneley@wayfair.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -21,7 +21,6 @@
     "@types/uuid": "^3.4.4",
     "@types/webpack": "4.4.17",
     "babel-loader": "^8.0.4",
-    "lodash": "^4.17.15",
     "np": "^3.0.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.5",
@@ -37,6 +36,7 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
+    "lodash": "^4.17.15",
     "pathfinding": "^0.4.18",
     "react-draggable": "^4.3.1",
     "react-resize-observer": "^1.1.1",
